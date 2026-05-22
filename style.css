@@ -1,0 +1,199 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#F7F8F0;
+line-height:1.6;
+color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#355872;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar h2{
+color:white;
+font-size:24px;
+font-weight:bold;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+}
+
+.navbar ul li{
+margin-left:25px;
+}
+
+.navbar ul li a{
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:0.3s;
+}
+
+.navbar ul li a:hover{
+color:#ff4d5a;
+}
+
+/* Hero */
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 10%;
+background:#ede8dc;
+gap:60px;
+}
+
+.hero-text{
+max-width:600px;
+}
+
+.hero-text h3{
+font-weight:500;
+color:#B8860B;
+}
+
+.hero-text h1{
+font-size:45px;
+margin:10px 0;
+}
+
+.hero-text span{
+color:#4A70A9;
+}
+
+.hero-text p{
+margin:20px 0;
+}
+
+/* Button */
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#C0622F;
+color:white;
+text-decoration:none;
+border-radius:6px;
+margin-top:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#273F4F;
+}
+
+/* Hero Image */
+
+.hero-image img{
+width:320px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Sections */
+
+section{
+padding:80px 10%;
+text-align:center;
+background:#F7F8F0;
+}
+
+section h2{
+font-size:32px;
+margin-bottom:20px;
+}
+
+/* About */
+
+.about{
+width:100%;
+}
+
+.about p{
+text-align:justify;
+margin-top:15px;
+}
+
+/* Skills */
+
+.skill-list{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:25px;
+}
+
+.skill{
+background:#C0622F;
+color:white;
+padding:10px 22px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* Experience */
+
+.experience{
+max-width:850px;
+margin:auto;
+text-align:left;
+}
+
+.experience h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.exp-item{
+margin-bottom:35px;
+}
+
+.exp-item h3{
+font-size:22px;
+color:#C0622F;
+margin-bottom:5px;
+}
+
+.exp-date{
+font-size:15px;
+color:#777;
+margin-bottom:12px;
+}
+
+.exp-desc{
+text-align:justify;
+line-height:1.8;
+}
+
+/* Contact */
+
+.contact{
+text-align:center;
+}
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:25px;
+background:#355872;
+color:white;
+font-size:14px;
+}
